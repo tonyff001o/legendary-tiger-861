@@ -1,14 +1,1 @@
-services:
-  - type: web
-    name: my-application
-    runtime: docker
-    region: oregon
-    plan: free
-    dockerfilePath: ./Dockerfile
-    envVars:
-      - key: SESSION
-        value: ""
-      - key: postgresql://bvhvhvjvv_user:mVofcTNSVmuZNnztZp3NUSr33i1mNLPY@dpg-d36fb7vfte5s73bdrccg-a.oregon-postgres.render.com/bvhvhvjvv
-        fromDatabase:
-          name: my-database
-          property: connectionString
+
